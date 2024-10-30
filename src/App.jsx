@@ -1,24 +1,23 @@
-import Hello from "./pages/Hello"
-import Sample from "./pages/Sample"
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
-export const App=()=>{
+import Hai from "./Pages/Hai"
+import Sample from "./pages/Sample"
+
+function App(){
 
   const abc=createBrowserRouter([
     {
-      path:'/',
-      element:<Sample/>
-    },
-    {
-      path:'/cartpage',
-      element:<Hello/>
-    }
-  ])
+path:'/',
+element:<Sample/>
+  },
+  {
+    path:"/cartpage",
+    element:<Hai/>
+  }
+])
 
   return (
-    <>
- <RouterProvider router={abc}></RouterProvider>
-    </>
+<RouterProvider router={abc}></RouterProvider>
   )
 }
-export default App
 
+export default App
