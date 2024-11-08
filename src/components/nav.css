@@ -1,12 +1,13 @@
-.nav{
+.navbar{
     width: 100%;
-    height: 60px;
-    background-color: aqua;
+    height: 55px;
+    background-color: darkslategray;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around
 }
-li{
-    list-style: none;
+h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
 }
