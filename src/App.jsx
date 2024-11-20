@@ -1,22 +1,16 @@
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
-import Cart from "./pages/Cart"
-import Home from "./pages/Home"
+
+import Hey from "./Pages/Hey"
+import Sample from "./Pages/Sample"
+
 
 function App(){
 
-  const abc=createBrowserRouter([
-    {
-      path:'/',
-      element:<Home/>
-    },
-    {
-      path:"/cartpage",
-      element:<Cart/>
-    }
-  ])
+
+
   return (
     <>
-<RouterProvider router={abc}></RouterProvider>
+    <Hey/>
+
 </>
   )
 }
